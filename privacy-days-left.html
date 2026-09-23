@@ -31,48 +31,61 @@
     <hr />
     <h1>Privacy Policy - Days Left: Life Calendar</h1>
     <p>
-      <strong>Last Updated:</strong> September 4, 2026<br />
-      <strong>Effective Date:</strong> September 4, 2026
+      <strong>Last Updated:</strong> September 23, 2026<br />
+      <strong>Effective Date:</strong> September 23, 2026
     </p>
-    <h2>1. Introduction</h2>
-    <p>Welcome to Days Left. This Privacy Policy explains how data is handled when you use our mobile application ("App").</p>
-    <p><strong>Our Privacy Philosophy:</strong> Days Left is offline-first. Your events, countdowns, and preferences stay on your device. We operate no account system and do not transmit your event data to our servers.</p>
-    <h2>2. Information You Provide (Local Data)</h2>
-    <p>The following information is created by you and <strong>stored locally on your device</strong>:</p>
+
+    <h2>1. About This Policy</h2>
+    <p>This Privacy Policy explains how Dekadans Yazılım Teknoloji Anonim Şirketi handles information when you use Days Left: Life Calendar (the “App”). The App has no user account system, and we do not operate an app server that stores your events.</p>
+
+    <h2>2. Information Stored on Your Device</h2>
+    <p>The App stores the following information locally using your device’s app storage:</p>
     <ul>
-      <li><strong>Events:</strong> names, emojis, colors, and target dates you enter for your countdowns.</li>
-      <li><strong>App preferences:</strong> selected color theme, glow effect setting, reminder settings, and unlock state.</li>
+      <li><strong>Events:</strong> event names, dates, recurrence rules, emojis, colors, reminder settings, and source details for imported events.</li>
+      <li><strong>Calendar imports:</strong> on iOS, when you start the calendar import flow and grant access, the App reads calendar event details such as titles, dates, calendar names and identifiers to show import candidates. Events you choose to import are saved in the App.</li>
+      <li><strong>Contact birthday imports:</strong> on iOS, when you start the contacts import flow and grant access, the App reads contact names and birthdays to show candidates. The import requests name and birthday fields, not phone numbers or email addresses. Imported birthdays and a local import key, which may contain the contact identifier used to avoid duplicate imports, are saved in the App.</li>
+      <li><strong>Preferences and app state:</strong> theme, language, reminder defaults, week-number preference, onboarding state, and purchase entitlement state.</li>
     </ul>
-    <p><em>Note: If you delete the app without a device backup, locally stored events may be permanently lost.</em></p>
-    <h2>3. Notifications</h2>
-    <p>If you set a reminder, the App schedules <strong>local notifications</strong> on your device. Local notifications are delivered by iOS/Android directly and do not involve our servers or third-party push services. Permission is requested only when you add your first event with a reminder.</p>
-    <h2>4. Purchases</h2>
-    <p>Lifetime unlock purchases are processed by Apple (or Google Play on Android). We use RevenueCat to validate entitlements. Purchase receipts / anonymous App Store identifiers may be processed for restore and entitlement checks. We do not receive your full payment card details.</p>
-    <h2>5. Analytics and Crash Reports</h2>
-    <p>
-      To improve the App, we use:
-    </p>
+    <p>Calendar and Contacts access is requested only when you use the corresponding import feature. You choose which candidates to add. These imported details are used by the App on your device and are not sent to a server operated by us. You can revoke system permissions in your device settings and delete imported events from the App.</p>
+
+    <h2>3. Backups and Restore</h2>
+    <p>You can export a JSON backup of your events and selected preferences through the device share sheet, and restore a backup by selecting a file. A backup is created only when you choose to export it. If you share or store that file using another app or service, that provider’s privacy terms apply. Restore merges the backup into the App’s local data; it is not cloud synchronization with us.</p>
+
+    <h2>4. Notifications</h2>
+    <p>Event reminders are scheduled as local notifications on your device. The App does not use a remote push notification server. Notification permission is requested when you choose to set reminders, and you can change notification access in the App or your device settings. Delivery can depend on your operating system and notification settings.</p>
+
+    <h2>5. Purchases</h2>
+    <p>Purchases may include recurring subscriptions or a one-time unlock, depending on the options shown in the App and your store. Apple or Google Play processes payment, while RevenueCat is used to validate and restore purchase entitlements. These services may process purchase receipts, product and subscription status, and app or store identifiers needed for those functions. We do not receive your full payment card details. See <a href="https://www.revenuecat.com/privacy">RevenueCat’s Privacy Policy</a>.</p>
+
+    <h2>6. Analytics and Diagnostics</h2>
+    <p>Some builds may be configured to use the following services. They are enabled only when the corresponding key or DSN is included in that build:</p>
     <ul>
-      <li><strong>Aptabase</strong> — privacy-first, anonymous product analytics. It collects simplified usage events (e.g. screen views, feature use) without personal identifiers, advertising IDs, or precise location.</li>
-      <li><strong>Sentry</strong> — crash and error reporting. When the App crashes, diagnostic data (stack traces, device model, OS version) may be sent to help us fix bugs.</li>
+      <li><strong>Aptabase:</strong> product analytics about app and feature use. When configured, analytics starts automatically when the App launches. Events may include screens and features used, event creation or deletion, recurrence and reminder flags, import source and permission results, import counts, theme selection, and purchase or restore status and billing cycle. The App’s custom analytics event properties do not include event names, event dates, contact identifiers, or calendar identifiers. The current App does not provide an in-app control to turn analytics off. See <a href="https://aptabase.com/">Aptabase</a> for information about the service.</li>
+      <li><strong>Sentry:</strong> error and crash diagnostics, which may include error messages, stack traces, app and device details, and sampled performance traces. See <a href="https://sentry.io/privacy/">Sentry’s Privacy Policy</a>.</li>
     </ul>
-    <p>Neither service is used to build advertising profiles. The App contains no third-party advertising SDKs and we do not sell personal data.</p>
-    <h2>6. Data Sharing</h2>
-    <p>We do not sell your personal data. Data may be processed by Apple / Google (App Store purchases), RevenueCat (entitlement validation), Aptabase (anonymous analytics), and Sentry (crash diagnostics) only as needed to provide the App.</p>
-    <h2>7. Children's Privacy</h2>
-    <p>Days Left is not directed to children under 13. We do not knowingly collect personal information from children.</p>
-    <h2>8. Your Choices</h2>
+    <p>We do not use these services for advertising, and the App does not include third-party advertising SDKs. Service configuration and provider policies determine where analytics and diagnostic records are stored and how long they are retained. Aptabase events are not tied to an App account, so we may not be able to locate an individual analytics record for deletion.</p>
+
+    <h2>7. How Information Is Shared</h2>
+    <p>We do not sell personal information. Information is processed by Apple or Google Play for store functions, RevenueCat for purchase entitlements, and—only in builds configured for them—Aptabase for analytics and Sentry for diagnostics. We do not send locally stored event or imported calendar/contact details to our own server.</p>
+
+    <h2>8. Retention and Your Choices</h2>
     <ul>
-      <li>Delete events from within the App at any time.</li>
-      <li>Disable reminders in the App or in system settings.</li>
-      <li>Uninstall the App to remove local app storage and disable crash reporting from your device.</li>
+      <li>View and delete events, including imported events, within the App.</li>
+      <li>Revoke Calendar or Contacts access in your device settings.</li>
+      <li>Turn reminders off in the App or device settings.</li>
+      <li>Export a backup before uninstalling if you want to keep your local data. Uninstalling generally removes the App’s local storage, but does not remove files you exported or data held by third-party services.</li>
+      <li>For privacy questions or requests under applicable law, contact us below. Purchase records are managed by the relevant store and provider; anonymous analytics may not be attributable to a specific person.</li>
     </ul>
-    <h2>9. Contact</h2>
-    <p>If you have questions about this Privacy Policy or your data, please contact us:</p>
+
+    <h2>9. Children’s Privacy</h2>
+    <p>The App is not directed to children under 13, and we do not knowingly collect personal information from children under 13.</p>
+
+    <h2>10. Contact</h2>
+    <p>If you have questions about this policy or your information, contact us:</p>
     <p>
       <strong>Company:</strong> Dekadans Yazılım Teknoloji Anonim Şirketi<br />
       <strong>Email:</strong> <a href="mailto:info@dekadans.net">info@dekadans.net</a><br />
-      <strong>Address:</strong> Cankiri / Merkez / Turkey
+      <strong>Address:</strong> Çankırı / Merkez / Türkiye
     </p>
     <hr />
     <p style="font-size: 13px; opacity: 0.75">This page is provided for App Store Connect listing and user transparency.</p>
