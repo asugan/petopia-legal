@@ -97,6 +97,7 @@ We may update this policy when the app, its integrations, or applicable requirem
 
 ## 11. Contact
 
-For privacy questions or requests, contact us at [petopia@dekadans.net](mailto:petopia@dekadans.net).
+For privacy questions or requests, contact us at [cagatayeren1898@gmail.com](mailto:cagatayeren1898@gmail.com).
 
-**Address:** Çankırı / Merkez, Türkiye
+**App provider:** Çağatay Erkin Eren  
+**Address:** Çankırı / Merkez / Türkiye

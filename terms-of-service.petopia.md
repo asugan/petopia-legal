@@ -96,9 +96,9 @@ If you obtained Petopia from Apple's App Store, this section applies. These Term
 
 For questions, complaints, or support requests about Petopia or these Terms, contact:
 
-**App provider:** Petopia  
-**Email:** [petopia@dekadans.net](mailto:petopia@dekadans.net)  
-**Address:** Çankırı / Merkez, Türkiye
+**App provider:** Çağatay Erkin Eren  
+**Email:** [cagatayeren1898@gmail.com](mailto:cagatayeren1898@gmail.com)  
+**Address:** Çankırı / Merkez / Türkiye
 
 **Last Review:** September 23, 2026  
 **Version:** 2.0
