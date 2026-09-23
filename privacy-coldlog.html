@@ -10,7 +10,7 @@
         max-width: 900px;
         margin: 40px auto;
         padding: 0 16px;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         line-height: 1.6;
       }
       a { text-decoration: none; }
@@ -29,47 +29,183 @@
       </nav>
     </header>
     <hr />
+
     <h1>Privacy Policy - ColdLog: Plunge &amp; Ice Bath</h1>
     <p>
-      <strong>Last Updated:</strong> July 21, 2026<br />
-      <strong>Effective Date:</strong> July 21, 2026
+      <strong>Last Updated:</strong> September 23, 2026<br />
+      <strong>Effective Date:</strong> September 23, 2026
     </p>
+
     <h2>1. Introduction</h2>
-    <p>Welcome to ColdLog. This Privacy Policy explains how data is handled when you use our mobile application ("App").</p>
-    <p><strong>Our Privacy Philosophy:</strong> ColdLog is offline-first. Your cold plunge sessions, notes, and preferences stay on your device unless you explicitly export them or grant optional health permissions.</p>
-    <h2>2. Information You Provide (Local Data)</h2>
-    <p>The following information is created by you and <strong>stored locally on your device</strong>. We do not operate an account system and we do not transmit this data to our servers:</p>
-    <ul>
-      <li><strong>Session logs:</strong> duration, temperature, mood, notes, and related session metadata.</li>
-      <li><strong>Breathwork / timer state:</strong> in-progress and completed session state used to resume after interruptions.</li>
-      <li><strong>App preferences:</strong> settings such as units, notification toggles, and unlock state mirrors.</li>
-    </ul>
-    <p><em>Note: If you delete the app without a device backup, locally stored session history may be permanently lost.</em></p>
-    <h2>3. Apple Health (HealthKit)</h2>
-    <p>If you grant permission, ColdLog may read Heart Rate Variability (HRV) and heart rate from Apple Health to show recovery context before and after sessions. ColdLog does not write health data to Apple Health.</p>
-    <p>You can revoke access anytime in iOS Settings &gt; Privacy &amp; Security &gt; Health.</p>
-    <h2>4. Purchases</h2>
-    <p>Lifetime unlock purchases are processed by Apple. We use RevenueCat to validate entitlements. Purchase receipts / anonymous App Store identifiers may be processed for restore and entitlement checks. We do not receive your full payment card details.</p>
-    <h2>5. Analytics, Ads, and Tracking</h2>
-    <p>ColdLog does not use third-party advertising SDKs and does not sell personal data. We do not build advertising profiles from your session content.</p>
-    <h2>6. Data Sharing</h2>
-    <p>We do not sell your personal data. Data may be processed by Apple (App Store / HealthKit) and RevenueCat (purchase entitlement validation) only as needed to provide the App.</p>
-    <h2>7. Children's Privacy</h2>
-    <p>ColdLog is not directed to children under 13. We do not knowingly collect personal information from children.</p>
-    <h2>8. Your Choices</h2>
-    <ul>
-      <li>Revoke HealthKit access in iOS Settings.</li>
-      <li>Export or delete local session data from within the App (where available).</li>
-      <li>Uninstall the App to remove local app storage from the device.</li>
-    </ul>
-    <h2>9. Contact</h2>
-    <p>If you have questions about this Privacy Policy or your data, please contact us:</p>
     <p>
+      This Policy explains how Dekadans Yazılım Teknoloji Anonim Şirketi ("we,
+      "us," or "our") handles information when you use ColdLog: Plunge &amp; Ice
+      Bath (the "App"). ColdLog does not require an account and stores your
+      session history on your device. Some analytics, diagnostic, and purchase
+      information may be sent to the service providers described below.
+    </p>
+
+    <h2>2. Information Stored on Your Device</h2>
+    <p>
+      ColdLog stores app records in a local SQLite database. These may include:
+    </p>
+    <ul>
+      <li>
+        Session start and end times, session type, water temperature, duration,
+        mood before and after, and any notes you enter.
+      </li>
+      <li>
+        If you grant Apple Health access, HRV snapshots recorded before and after
+        a session, when available.
+      </li>
+      <li>
+        Breathwork details associated with a session, such as rounds, breaths,
+        and hold duration.
+      </li>
+      <li>
+        App preferences such as units, appearance, weekly goals, haptics and
+        sound settings, onboarding status, Apple Health connection state, and a
+        local copy of premium entitlement status.
+      </li>
+    </ul>
+    <p>
+      We do not operate an account-based service or upload your session records
+      to a company-operated server. Your operating system may include app data
+      in device backups according to your backup settings. Uninstalling the App
+      may remove its local database from the device, while copies in backups may
+      remain.
+    </p>
+
+    <h2>3. Apple Health</h2>
+    <p>
+      On iOS, ColdLog can request permission to read Heart Rate Variability
+      (HRV) and heart-rate data from Apple Health. The current session recovery
+      flow reads HRV samples to show before-and-after context. Any HRV values
+      saved with a session remain in the local session record and may be
+      included in an export you choose to share. ColdLog does not write data to
+      Apple Health.
+    </p>
+    <p>
+      You can manage or revoke Health access in iOS Settings under Health and
+      Data Access. Turning off the App's Apple Health feature does not itself
+      revoke the permission granted by iOS.
+    </p>
+
+    <h2>4. Product Analytics</h2>
+    <p>
+      In builds configured with an Aptabase app key, ColdLog sends product
+      analytics events to <a href="https://aptabase.com/">Aptabase</a>. These
+      events may describe app screens and feature use, session type and entry
+      point, session duration and temperature ranges, breathwork counts, weekly
+      goals, streaks, export results, and paywall or purchase outcomes. Events
+      may include simple flags such as whether a session had a note or mood
+      value; they do not include the note text or mood value.
+    </p>
+    <p>
+      Analytics also receives limited HealthKit-derived status information:
+      where a permission request came from and whether it was granted, and
+      whether an HRV sample or before-and-after pair was available. Our custom
+      Aptabase event calls do not send numeric HRV or heart-rate measurements.
+      Aptabase may process anonymous session and technical context, such as app
+      version, platform, or operating-system information. Aptabase describes its
+      service as anonymous analytics that does not use persistent device
+      identifiers.
+    </p>
+    <p>
+      The current App does not provide an in-app setting to turn off Aptabase
+      analytics in builds where analytics is configured. Analytics is not
+      initialized in builds without an Aptabase app key.
+    </p>
+
+    <h2>5. Crash and Performance Diagnostics</h2>
+    <p>
+      If a build is configured with a Sentry DSN, Sentry may receive crash and
+      error reports, stack traces, and sampled performance information to help
+      diagnose technical problems. Sentry's default personal information
+      collection is disabled in the App, performance traces are sampled, and
+      profiling is disabled. Builds without a Sentry DSN do not send Sentry
+      diagnostics. See
+      <a href="https://sentry.io/privacy/">Sentry's Privacy Policy</a>.
+    </p>
+
+    <h2>6. Purchases</h2>
+    <p>
+      If you make or restore a purchase, RevenueCat processes purchase and
+      entitlement information to verify access. This may include transaction or
+      receipt data, product and entitlement status, and a pseudonymous RevenueCat
+      App User ID. Apple App Store or Google Play processes payment details for
+      the store purchase; we do not receive your full payment card number. See
+      <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>,
+      <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>,
+      and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+    </p>
+
+    <h2>7. Exporting and Sharing</h2>
+    <p>
+      You can export session records as CSV or JSON. An export may include
+      session dates, type, temperature, duration, mood values, notes, and saved
+      HRV measurements. The App creates the export when you request it and opens
+      the operating system's share sheet. Any copy you send or save outside the
+      App is handled by the receiving app or service under its own terms and
+      privacy policy.
+    </p>
+
+    <h2>8. Data Choices, Deletion, and Retention</h2>
+    <ul>
+      <li>
+        You can export your session history in Settings and delete individual
+        sessions from their detail screen. The App has no account to delete and
+        does not currently offer an in-app delete-all-sessions control.
+      </li>
+      <li>
+        Local session records remain on the device until deleted, the App is
+        uninstalled, or the device otherwise removes them. Operating-system
+        backups may retain copies.
+      </li>
+      <li>
+        Analytics, diagnostics, and purchase records held by third-party
+        providers are retained under those providers' policies and service
+        settings. Because Aptabase analytics is designed to be anonymous, we may
+        not be able to identify an individual event for deletion.
+      </li>
+    </ul>
+    <p>
+      You may contact us to exercise privacy rights available under the laws
+      that apply to you.
+    </p>
+
+    <h2>9. How We Use and Share Information</h2>
+    <p>
+      We use local records to provide session history, recovery context, goals,
+      and exports. Aptabase supports product analytics; Sentry supports
+      diagnostics when configured; RevenueCat and the app stores support
+      purchases. We do not sell personal data, use session content for
+      advertising, or use an advertising SDK in the App. Providers may process
+      information in countries where they or their infrastructure operate and
+      under their own privacy terms.
+    </p>
+
+    <h2>10. Children's Privacy</h2>
+    <p>
+      ColdLog is not directed to children under 13, and we do not knowingly
+      collect personal information from children under 13. Contact us if you
+      believe a child has provided information through a provider-backed
+      feature.
+    </p>
+
+    <h2>11. Changes to This Policy</h2>
+    <p>
+      We may update this Policy when the App or its data practices change. We
+      will revise the date above and provide an in-app notice when required.
+    </p>
+
+    <h2>12. Contact</h2>
+    <p>
+      For privacy questions or requests, contact:<br />
       <strong>Company:</strong> Dekadans Yazılım Teknoloji Anonim Şirketi<br />
       <strong>Email:</strong> <a href="mailto:info@dekadans.net">info@dekadans.net</a><br />
-      <strong>Address:</strong> Cankiri / Merkez / Turkey
+      <strong>Address:</strong> Çankırı / Merkez / Türkiye
     </p>
     <hr />
-    <p style="font-size: 13px; opacity: 0.75">This page is provided for App Store Connect listing and user transparency.</p>
   </body>
 </html>
