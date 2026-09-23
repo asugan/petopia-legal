@@ -1,358 +1,104 @@
 # Terms of Service - Petopia Pet Care Assistant
 
-**Last Updated:** December 9, 2024  
-**Effective Date:** December 9, 2024
+**Last Updated:** September 23, 2026  
+**Effective Date:** September 23, 2026
 
-## 1. Agreement to Terms
+## 1. Agreement
 
-Welcome to Petopia Pet Care Assistant. These Terms of Service ("Terms") govern your use of our mobile application, website, and related services (collectively, the "Service").
+These Terms govern your use of the Petopia Pet Care Assistant mobile application ("Petopia" or "App"). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.
 
-By downloading, installing, or using Petopia, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our Service.
+## 2. What Petopia Does
 
-## 2. Description of Service
+Petopia helps you manage pet profiles, health and veterinary records, feeding schedules, calendar events, reminders, and pet-related expenses and budgets. The current App stores these records locally on your device. It does not provide Petopia accounts, cloud backup, or cross-device synchronization.
 
-Petopia is a mobile application designed to help pet owners:
+An internet connection may be needed for subscription verification, exchange-rate information, and any analytics or diagnostics enabled in the App build.
 
-- Manage pet profiles and health records
-- Track feeding schedules and dietary requirements
-- Monitor pet-related expenses and budgets
-- Schedule veterinary appointments and vaccinations
-- Store pet photos and important documents
-- Receive reminders for pet care activities
+## 3. Eligibility and Use
 
-## 3. User Eligibility and Account Registration
+Petopia is not intended for children under 13. If you are under the age of majority where you live, you may use Petopia only with any permission required from your parent or legal guardian.
 
-### 3.1 Eligibility Requirements
-
-- You must be at least 13 years of age to use Petopia
-- If you are under 18, you must have parental or guardian consent
-- You must provide accurate, current, and complete information
-- You are responsible for maintaining the confidentiality of your account
-
-### 3.2 Account Responsibilities
-
-- **Accurate Information:** Provide truthful and accurate information during registration
-- **Account Security:** Maintain the security of your password and account
-- **Authorized Use:** You are responsible for all activities under your account
-- **Notification:** Notify us immediately of any unauthorized use
-
-### 3.3 Account Termination
-
-- You may terminate your account at any time
-- We reserve the right to suspend or terminate accounts for violations
-- Upon termination, your data will be deleted according to our Privacy Policy
+Petopia does not require you to create a user account. You are responsible for the information you enter, for keeping access to your device secure, and for complying with applicable laws when using the App.
 
 ## 4. Acceptable Use
 
-### 4.1 Permitted Uses
+You agree not to:
 
-You may use Petopia for:
+- Use Petopia for an unlawful purpose
+- Interfere with the App, its security, or other users' devices or services
+- Attempt to reverse engineer or extract source code except where applicable law permits
+- Use the App to infringe another person's rights or submit information you are not authorized to use
+- Use automated means to disrupt or misuse connected third-party services
 
-- Managing your personal pet care information
-- Tracking legitimate pet-related expenses
-- Scheduling veterinary appointments and care activities
-- Storing personal pet photos and documents
-- Receiving care reminders and notifications
+## 5. Your Information and Privacy
 
-### 4.2 Prohibited Uses
+You retain your rights to the pet profiles, records, photos, and other information you enter in Petopia. The App processes and stores those records locally to provide its features. Petopia does not receive a general license to publish or distribute your locally stored records.
 
-You agree NOT to:
+Our [Privacy Policy](privacy.html) explains local storage, analytics and diagnostic integrations, subscriptions, currency-rate requests, permissions, and privacy choices. The Terms do not replace any consent required for data processing.
 
-- Use the Service for any illegal or unauthorized purposes
-- Upload malicious code, viruses, or harmful content
-- Attempt to gain unauthorized access to our systems
-- Use the Service to harass, abuse, or harm others
-- Interfere with or disrupt the Service or servers
-- Reverse engineer, decompile, or attempt to extract source code
-- Use automated tools to access the Service without permission
-- Create fake accounts or provide false information
-- Use the Service for commercial purposes without authorization
+## 6. App License and Intellectual Property
 
-### 4.3 Content Standards
+Petopia and its original software, design, and content are owned by Petopia or its licensors. Subject to these Terms, we grant you a limited, personal, non-exclusive, non-transferable license to install and use the App for personal pet-care management on a compatible device. All rights not expressly granted remain with their owners.
 
-When using Petopia, you agree not to:
+## 7. Third-Party Services
 
-- Upload content that is offensive, inappropriate, or harmful
-- Share content that violates the rights of others
-- Post false or misleading information
-- Upload content that violates applicable laws or regulations
-- Include personal information about others without consent
+The App may rely on Apple App Store or Google Play for distribution and subscription purchases, RevenueCat for subscription entitlement management, Aptabase for product analytics, Sentry for diagnostics, and Frankfurter for exchange-rate data. Availability and processing by those providers are subject to their own terms and privacy notices. Your use of the App must also comply with applicable app-store, device, and network-provider terms.
 
-## 5. Privacy and Data Protection
+## 8. Subscriptions and Payments
 
-### 5.1 Privacy Policy
+Some features may require a paid subscription. The price, billing period, trial (if offered), and renewal terms shown by the relevant app store at the time of purchase apply to that purchase. Apple or Google processes the payment; RevenueCat may help verify purchase receipts and subscription entitlements.
 
-Your use of Petopia is also governed by our Privacy Policy, which explains how we collect, use, and protect your information. By using our Service, you consent to the collection and use of information as described in our Privacy Policy.
+Subscriptions renew and may be cancelled under the applicable app-store terms. Manage or cancel an Apple subscription through your Apple Account settings, or a Google Play subscription through your Google Play account. Refund requests are handled under the applicable app-store policies.
 
-### 5.2 Data Ownership
+## 9. Pet-Care Information and Reminders
 
-- **Your Data:** You retain ownership of all content and information you provide
-- **Pet Information:** Pet profiles and related data belong to you
-- **Usage Rights:** You grant us limited rights to operate and improve the Service
-- **Third-Party Services:** Some features may require integration with third-party services
+Petopia is an organizational tool, not a veterinary service and not a substitute for diagnosis, treatment, or advice from a qualified veterinarian. Verify important medical information with a veterinarian and seek professional care for emergencies.
 
-### 5.3 Data Security
+Reminders are scheduled on your device and depend on device settings, notification permissions, power, and operating-system behavior. Petopia cannot guarantee that a reminder will be delivered at a particular time. Do not rely on the App for emergency or continuous monitoring.
 
-We implement reasonable security measures to protect your data, but we cannot guarantee absolute security. You are responsible for:
+## 10. Local Data, Backup, and Deletion
 
-- Maintaining the security of your device
-- Protecting your account credentials
-- Backing up important data
+Your records are stored on your device. Petopia does not currently provide a Petopia account or cloud recovery service. You are responsible for any backup you choose to make through your device or another tool. A device backup may include app data under the platform's settings.
 
-## 6. Intellectual Property Rights
+You can edit or delete records in the App. The current **Settings > Data & Privacy > Clear Local Data** action resets the main app database; some app preferences and unfinished setup information stored separately may remain. Removing the App may remove its local app data, but data included in a device backup may be restored later.
 
-### 6.1 Our Rights
+## 11. Availability and Changes
 
-Petopia and its original content, features, and functionality are owned by Petopia and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
+We may update, change, or discontinue features as the App evolves. The App and third-party services may be unavailable from time to time due to maintenance, device limitations, network conditions, or provider outages.
 
-### 6.2 Trademarks
+## 12. Disclaimers and Liability
 
-- "Petopia" and related logos are trademarks of Petopia
-- You may not use our trademarks without prior written permission
-- All other trademarks, product names, and company names mentioned are the property of their respective owners
+To the maximum extent permitted by applicable law, Petopia is provided on an "as available" basis. We do not guarantee uninterrupted operation, error-free functionality, or that local records will never be lost. Nothing in these Terms excludes or limits a right or liability that cannot be excluded or limited by law.
 
-### 6.3 User Content
+To the extent permitted by law, Petopia is not responsible for losses caused by a device failure, a user-created backup, notification or network settings, or an interruption of a third-party service. This section does not limit your mandatory consumer rights.
 
-- **License Grant:** You grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, and display content you provide for the purpose of operating and improving the Service
-- **Your Rights:** You retain all rights to your content
-- **Third-Party Content:** You represent that you have all necessary rights to any content you upload
+## 13. Ending Use
 
-### 6.4 Feedback and Suggestions
+You may stop using Petopia at any time by removing the App from your device. Because the current App does not create Petopia user accounts, there is no Petopia account to terminate. Local data and device backups are handled as described in Section 10.
 
-If you provide feedback or suggestions about Petopia, you grant us the right to use such feedback without obligation to compensate you.
+We may restrict or discontinue access to the App where reasonably necessary to address misuse, security, legal requirements, or discontinued support, subject to applicable law.
 
-## 7. Service Availability and Performance
+## 14. Governing Law and Disputes
 
-### 7.1 Service Availability
+These Terms are governed by the laws of the Republic of Türkiye, subject to any mandatory consumer-protection laws that apply where you live. Disputes may be brought before a court with jurisdiction under applicable law. Nothing in these Terms prevents you from exercising rights that cannot legally be waived.
 
-- **Best Effort:** We strive to provide reliable service but cannot guarantee 100% uptime
-- **Maintenance:** We may perform maintenance that temporarily interrupts service
-- **Updates:** We may update or modify the Service at any time
-- **Discontinuation:** We reserve the right to discontinue the Service with reasonable notice
+## 15. Additional Terms for Apple App Store Users
 
-### 7.2 Third-Party Services
+If you obtained Petopia from Apple's App Store, this section applies. These Terms are between you and Petopia, not Apple. Petopia, not Apple, is responsible for the App and its content.
 
-- **Dependencies:** Petopia may rely on third-party services for functionality
-- **Availability:** We are not responsible for third-party service interruptions
-- **Changes:** Third-party services may change their terms or availability
+- Your App license is limited, personal, and non-transferable, for use on Apple-branded products that you own or control and subject to Apple's applicable usage rules.
+- Petopia is responsible for maintenance and support for the App as required by these Terms or applicable law. Apple has no obligation to provide maintenance or support.
+- Petopia, not Apple, is responsible for applicable product claims, legal-compliance claims, and intellectual-property infringement claims relating to the App, subject to applicable law.
+- If the App fails to meet an applicable warranty, you may notify Apple and Apple will refund any purchase price paid for the App, if applicable. To the maximum extent permitted by law, other warranty obligations relating to the App are Petopia's responsibility.
+- You represent that you are not located in a U.S.-embargoed region and are not on a U.S. government list of prohibited or restricted parties.
+- Apple and its subsidiaries are third-party beneficiaries of this section and may enforce it against you after you accept these Terms.
 
-### 7.3 Device Compatibility
+## 16. Contact
 
-- **Requirements:** Petopia requires compatible mobile devices and operating systems
-- **Updates:** You may need to update your device or operating system to continue using the Service
-- **Performance:** Service performance may vary based on device capabilities and network conditions
+For questions, complaints, or support requests about Petopia or these Terms, contact:
 
-## 8. Payment and Subscription Terms
+**App provider:** Petopia  
+**Email:** [petopia@dekadans.net](mailto:petopia@dekadans.net)  
+**Address:** Çankırı / Merkez, Türkiye
 
-### 8.1 Free and Premium Features
-
-- **Free Features:** Basic pet care management features are available free of charge
-- **Premium Features:** Some advanced features may require payment
-- **Trial Periods:** Free trials may be offered for premium features
-- **Pricing:** Prices are subject to change with notice
-
-### 8.2 Payment Terms
-
-- **App Stores:** Payments are processed through Apple App Store or Google Play Store
-- **RevenueCat (subscription management):** We may use RevenueCat to manage subscription entitlements and verify purchase status. RevenueCat may process purchase/receipt information and device identifiers required to provide subscription access.
-- **Subscription Management:** Subscriptions are managed through your app store account
-- **Auto‑Renewal:** Subscriptions renew automatically unless you cancel at least 24 hours before the end of the current period (store policies apply).
-- **Refunds:** Refunds are handled by Apple/Google under their refund policies; we do not issue refunds directly.
-
-### 8.3 Cancellation and Termination
-
-- **User Cancellation:** You can cancel subscriptions through your app store account
-- **Effect of Cancellation:** Access to premium features ends at the end of the billing period
-- **No Pro-Rated Refunds:** We do not provide pro-rated refunds for partial periods
-
-## 9. Disclaimers and Limitations of Liability
-
-### 9.1 Service Disclaimer
-
-Petopia is provided on an "as is" and "as available" basis. We make no representations or warranties of any kind, express or implied, including but not limited to:
-
-- Accuracy or reliability of information
-- Fitness for a particular purpose
-- Non-infringement of third-party rights
-- Uninterrupted or error-free operation
-
-### 9.2 Medical and Veterinary Advice
-
-- **Not Medical Advice:** Petopia is not a substitute for professional veterinary care
-- **Consult Professionals:** Always consult qualified veterinarians for medical concerns
-- **Emergency Situations:** Seek immediate veterinary care for emergencies
-- **Liability Limitation:** We are not liable for decisions made based on app information
-
-### 9.3 Financial Information
-
-- **Budget Estimates:** Expense tracking features provide estimates, not professional financial advice
-- **Currency Fluctuations:** Financial calculations may not account for all variables
-- **Professional Advice:** Consult financial professionals for significant financial decisions
-
-### 9.4 Limitation of Liability
-
-To the maximum extent permitted by law, Petopia shall not be liable for:
-
-- **Direct Damages:** Direct, incidental, or consequential damages
-- **Data Loss:** Loss of data or information
-- **Service Interruption:** Damages from service interruptions
-- **Third-Party Actions:** Damages resulting from third-party actions
-- **Maximum Liability:** Our total liability shall not exceed the amount paid for the Service
-
-## 10. Indemnification
-
-You agree to indemnify, defend, and hold harmless Petopia and its officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, and expenses, including reasonable attorneys' fees, arising from or related to:
-
-- Your use of the Service
-- Your violation of these Terms
-- Your violation of any rights of another
-- Your violation of applicable laws or regulations
-
-## 11. Dispute Resolution
-
-### 11.1 Governing Law
-
-These Terms shall be governed by and construed in accordance with the laws of [Insert your jurisdiction], without regard to its conflict of law principles.
-
-### 11.2 Dispute Resolution Process
-
-- **Good Faith:** We will attempt to resolve disputes through good faith negotiations
-- **Mediation:** If negotiations fail, disputes may be resolved through mediation
-- **Arbitration:** As a last resort, disputes may be resolved through binding arbitration
-- **Court Action:** Nothing in this section prevents either party from seeking injunctive relief
-
-### 11.3 Class Action Waiver
-
-You agree that any dispute resolution proceedings will be conducted only on an individual basis and not in a class, consolidated, or representative action.
-
-## 12. Termination
-
-### 12.1 Termination by User
-
-You may terminate your account and these Terms at any time by:
-
-- Deleting your account through the app settings
-- Contacting our support team
-- Uninstalling the app
-
-### 12.2 Termination by Petopia
-
-We may terminate or suspend your account immediately, without prior notice or liability, for any reason, including if you:
-
-- Breach these Terms
-- Violate applicable laws
-- Engage in fraudulent or illegal activities
-- Compromise the security or integrity of the Service
-
-### 12.3 Effect of Termination
-
-Upon termination:
-
-- Your right to use the Service ends immediately
-- We may delete your data according to our Privacy Policy
-- These Terms shall survive termination where applicable
-- You remain liable for any obligations incurred before termination
-
-## 13. Changes to Terms of Service
-
-### 13.1 Right to Modify
-
-We reserve the right to modify these Terms at any time. Changes will be effective upon posting in the app or on our website.
-
-### 13.2 Notification of Changes
-
-We will notify users of significant changes through:
-
-- In-app notifications
-- Email notifications (if provided)
-- Prominent display in the app
-- Updated effective date
-
-### 13.3 Continued Use
-
-Your continued use of the Service after changes to these Terms constitutes acceptance of the modified Terms.
-
-## 14. General Provisions
-
-### 14.1 Entire Agreement
-
-These Terms, together with our Privacy Policy, constitute the entire agreement between you and Petopia regarding the use of the Service.
-
-### 14.2 Severability
-
-If any provision of these Terms is found to be unenforceable or invalid, the remaining provisions shall continue in full force and effect.
-
-### 14.3 Waiver
-
-Our failure to enforce any provision of these Terms shall not be considered a waiver of such provision.
-
-### 14.4 Assignment
-
-You may not assign or transfer these Terms without our prior written consent. We may assign or transfer these Terms without restriction.
-
-### 14.5 Force Majeure
-
-We shall not be liable for any failure or delay in performance due to circumstances beyond our reasonable control.
-
-## 15. Contact Information
-
-### 15.1 General Inquiries
-
-For questions about these Terms of Service, please contact us:
-
-**Email:** legal@petopia.app  
-**Website:** https://petopia.app/terms  
-**Address:** [Add your business address or registered contact address]
-
-### 15.2 Support
-
-For technical support or app-related issues:
-
-**Email:** support@petopia.app  
-**In-App Support:** Use the support feature in the app
-
-### 15.3 Business Inquiries
-
-For business partnerships or commercial inquiries:
-
-**Email:** business@petopia.app
-
-## 16. Specific App Provisions
-
-### 16.1 Pet Data Accuracy
-
-- **User Responsibility:** You are responsible for the accuracy of pet information
-- **Veterinary Verification:** Important medical information should be verified by veterinarians
-- **Regular Updates:** Keep pet information current and accurate
-
-### 16.2 Reminder Services
-
-- **Notification Limitations:** We cannot guarantee timely delivery of all reminders
-- **Device Settings:** Reminder effectiveness depends on device notification settings
-- **Emergency Situations:** Reminders are not a substitute for professional monitoring
-
-### 16.3 Data Backup
-
-- **Local Storage:** Primary data is stored on your device
-- **User Responsibility:** You are responsible for backing up important data
-- **Cloud Backup:** Optional cloud backup features may be available
-
-### 16.4 Third-Party Integrations
-
-- **Veterinary Services:** Integration with veterinary services may be available
-- **Pet Supply Services:** Links to pet supply services may be provided
-- **Third-Party Terms:** Use of third-party services is governed by their terms
-
----
-
-## Acknowledgment
-
-By using Petopia Pet Care Assistant, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. You also acknowledge that you have read our Privacy Policy and agree to its terms.
-
-**Download as PDF:** You can download a copy of these Terms of Service for your records.
-
-**Last Review:** These Terms of Service were last reviewed and updated on December 9, 2024.
-
-**Version:** 1.0
-
-Thank you for choosing Petopia as your pet care companion!
+**Last Review:** September 23, 2026  
+**Version:** 2.0

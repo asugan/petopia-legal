@@ -1,302 +1,102 @@
 # Privacy Policy - Petopia Pet Care Assistant
 
-**Last Updated:** December 9, 2024  
-**Effective Date:** December 9, 2024
+**Last Updated:** September 23, 2026  
+**Effective Date:** September 23, 2026
 
-## 1. Introduction
+## 1. About This Policy
 
-Welcome to Petopia, your comprehensive pet care companion. This Privacy Policy explains how we collect, use, share, and protect your information when you use our mobile application ("Petopia" or "App").
+This Privacy Policy explains how Petopia Pet Care Assistant ("Petopia", "we", "us") handles information when you use the Petopia mobile app. The current app does not provide Petopia user accounts or cloud sync. Pet profiles and care records are primarily stored on your device.
 
-Petopia is a pet care management application designed to help pet owners track their pets' health, manage feeding schedules, monitor expenses, and maintain vaccination records.
+The app may contact service providers for analytics, diagnostics, subscriptions, and currency exchange-rate data, as described below. This policy applies to information handled by the app and those integrations.
 
-## 2. Information We Collect
+## 2. Information the App Handles
 
-### 2.1 Information You Provide
+### 2.1 Information You Enter or Choose
 
-**Account Information:**
+Depending on the features you use, Petopia may store on your device:
 
-- Email address and password (for authentication)
-- Profile information you choose to provide
-- Pet profiles including names, species, breeds, birth dates
-- Pet photos and images you upload
-- Health records, vaccination dates, medical history
-- Feeding schedules and dietary preferences
-- Expense records and financial information related to pet care
+- Pet profile details, such as a pet's name, type, breed, and dates
+- Pet photos you select or take in the app
+- Veterinary and pet health records, including record type, date, title, and treatment details
+- Feeding schedules, calendar events, reminders, and care notes
+- Pet-related expenses and budgets, including amounts, categories, currencies, and payment methods
+- App settings and unfinished setup information
 
-**User-Generated Content:**
+Petopia does not ask you to create an account or enter an email address or password to use these features. If you email us, we will receive the information you choose to include in that message.
 
-- Notes and observations about your pets
-- Photos and videos of your pets
-- Calendar events and reminders
-- Custom care instructions
+### 2.2 Analytics and Diagnostics
 
-### 2.2 Automatically Collected Information
+Depending on the app build, Petopia may use Aptabase for product analytics and Sentry for error, crash, and performance diagnostics. These services may receive event names and related properties that describe app activity, such as feature/source labels, pet or record types, expense categories, currency codes, and subscription or notification activity. They may also receive technical information such as app version, operating system, device information, network address, and event or session identifiers, depending on provider configuration.
 
-**Usage Data:**
+The current app version does not include an in-app setting to turn off these analytics or diagnostics when they are enabled in a build. We do not use these events to serve targeted advertising or to track you across other apps or websites. This notice does not replace any consent that may be required by law or platform rules.
 
-- App usage patterns and features accessed
-- Session duration and frequency
-- Crash reports and error logs
-- Performance metrics and diagnostic information
+### 2.3 Subscriptions and Currency Conversion
 
-**Device Information:**
+- **Subscriptions:** Apple or Google processes your subscription purchase. RevenueCat may receive an anonymous app user identifier, receipt or purchase information, subscription status, and entitlement information to provide subscription features. Petopia does not receive your full payment-card details through this integration.
+- **Currency conversion:** When the app requests exchange rates, it sends a base currency code to the Frankfurter service. The request does not send your expense records or expense amounts. The service may receive ordinary network request information, such as your IP address and request time.
 
-- Device type and operating system version
-- Unique device identifiers (for app functionality)
-- Mobile network information
-- IP address (approximate location only)
+## 3. Where Information Is Stored
 
-**Storage Data:**
+Pet profiles, photos, health records, schedules, events, expenses, and app settings are stored in the app's local database and local app storage on your device. Petopia does not upload these records to a Petopia account or Petopia cloud server, and the current app does not synchronize them between devices.
 
-- Local app data and settings
-- Cached images and content
-- Backup and sync information
+Your device operating system may include app data in device backups, depending on your device and backup settings. Those backups are governed by the platform provider's settings and policies.
 
-### 2.3 Third-Party Services
+Local data security also depends on your device, operating system, passcode, and backup settings. No storage or transmission method can be guaranteed completely secure.
 
-**Subscriptions (if you purchase Premium):**
+## 4. How We Use Information
 
-- RevenueCat: Helps us manage subscriptions and entitlement status. RevenueCat may process purchase/receipt information and device identifiers needed to provide subscription access.
+We use information to:
 
-**Authentication Services:**
+- Create and manage pet profiles and care records on your device
+- Schedule local reminders and display your calendar and budget information
+- Convert currencies using current exchange-rate information
+- Provide and verify subscription access
+- Understand feature use and diagnose errors or performance issues when analytics or diagnostics are enabled
+- Reply when you contact us and meet applicable legal obligations
 
-- Better Auth: For secure user authentication
-- Email providers: For account verification and password reset
+## 5. When Information Is Shared
 
-**Analytics and Crash Reporting:**
+Petopia does not sell your personal information. We share only the information needed for the following services, when the relevant integration is enabled or used:
 
-- Expo Updates: For app performance monitoring and crash reporting
-- Anonymous usage statistics for app improvement
+- **Aptabase:** Product analytics events and their properties, if analytics is enabled. The receiving endpoint depends on the app build configuration. See [Aptabase](https://aptabase.com/).
+- **Sentry:** Error, crash, and performance diagnostics, if Sentry is enabled. Its receiving service or host depends on the app build configuration. See the [Sentry Privacy Policy](https://sentry.io/privacy/).
+- **RevenueCat and the app store:** Information needed to process purchases, verify receipts, and provide subscription entitlements. See the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy), [Apple's privacy policy](https://www.apple.com/legal/privacy/en-ww/), or [Google's privacy policy](https://policies.google.com/privacy).
+- **Frankfurter:** The base currency code and ordinary network request information when exchange rates are requested. See [Frankfurter](https://frankfurter.dev/).
+- **Legal or business reasons:** Information may be disclosed when required by law, to protect rights or safety, or as part of a business transfer, subject to applicable law.
 
-## 3. How We Use Your Information
+We require service providers processing app data on our behalf to protect it at least as described in this policy and use it only to provide their services, subject to applicable law and our agreements with them. Other services may process their own technical or network request information under their own policies. Providers may process information in countries other than your country of residence.
 
-We use your information for the following purposes:
+## 6. Permissions
 
-### 3.1 Core App Functionality
+Petopia may request camera and photo-library permissions when you choose to add a pet photo. The current app version requests both permissions before either photo selection or camera capture. A selected photo is stored locally with the pet profile; Petopia does not upload it to a Petopia server. You can deny or change these permissions in your device's system settings, although the related photo feature may not work.
 
-- **Pet Management:** Create and manage pet profiles, health records, and care schedules
-- **Health Tracking:** Monitor vaccinations, medications, and veterinary visits
-- **Feeding Management:** Track feeding schedules, dietary requirements, and nutrition
-- **Expense Tracking:** Record and analyze pet-related expenses
-- **Calendar Integration:** Schedule appointments, reminders, and care activities
-- **Photo Storage:** Store and organize pet photos and medical documents
+Petopia may request notification permission to schedule reminders. Reminders are created on your device. You can manage notification permission through your device settings.
 
-### 3.2 Service Improvement
+## 7. Retention and Deletion
 
-- **App Performance:** Analyze usage patterns to improve app functionality
-- **Bug Fixes:** Use crash reports and diagnostic data to fix technical issues
-- **Feature Development:** Understand user needs to develop new features
-- **User Experience:** Optimize app interface and user journey
+Local pet and app data remains on your device until you delete it, reset the app, or remove the app, subject to any device backups. In the current version, **Settings > Data & Privacy > Clear Local Data** resets the main app database. Some app preferences and unfinished setup information stored separately may remain after this action.
 
-### 3.3 Communication
+Analytics and diagnostic information is retained according to the retention settings for the configured service and the provider's applicable terms. The app code does not set one fixed retention period for those service logs. Subscription and purchase records may be retained by Apple, Google, or RevenueCat under their own policies and legal obligations.
 
-- **Account Management:** Send important account information and security updates
-- **Service Updates:** Notify users about app updates, maintenance, or changes
-- **Support:** Respond to user inquiries and provide technical support
-- **Care Reminders:** Send notifications for feeding times, medications, and appointments
+Because Petopia does not create user accounts or keep pet records on a Petopia server, there is no Petopia account or server-side pet profile to delete in the current app. You may contact us to ask about a privacy request concerning information handled by a service provider. If analytics data is not linked to an account, we may not be able to identify a particular event as yours.
 
-### 3.4 Security and Compliance
+## 8. Your Choices and Rights
 
-- **Account Security:** Protect your account from unauthorized access
-- **Legal Compliance:** Meet legal and regulatory requirements
-- **Fraud Prevention:** Detect and prevent fraudulent activities
-- **Data Protection:** Ensure the security and integrity of user data
+- You can edit or delete individual pet records in the app and use Clear Local Data to reset the main database.
+- You can deny or change photo, camera, and notification permissions in your device settings.
+- Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing. Contact us using the details below to make a request.
+- The current app version has no in-app analytics opt-out switch. You can email us with a request or concern; whether a particular provider-held event can be located or deleted depends on the information available to identify it.
 
-## 4. Data Storage and Security
+## 9. Children
 
-### 4.1 Data Storage Locations
+Petopia is not intended for children under 13. The app does not provide child accounts. If you believe a child has sent us information directly by email, contact us so we can review the request.
 
-- **Local Storage:** Primary data is stored locally on your device
-- **Secure Storage:** Sensitive information (passwords, tokens) is stored using device secure storage
-- **Cloud Backup:** Optional cloud backup for data synchronization across devices
-- **Encrypted Transmission:** All data transmitted over networks is encrypted using industry-standard protocols
+## 10. Changes to This Policy
 
-### 4.2 Security Measures
+We may update this policy when the app, its integrations, or applicable requirements change. We will update the date above and provide any additional notice required by law.
 
-- **Encryption:** Data is encrypted both in transit and at rest
-- **Access Controls:** Strict access controls limit who can access your data
-- **Data Minimization:** We collect only the data necessary for app functionality
+## 11. Contact
 
-## 5. Data Sharing and Disclosure
+For privacy questions or requests, contact us at [petopia@dekadans.net](mailto:petopia@dekadans.net).
 
-### 5.1 We Do Not Sell Your Data
-
-We never sell, rent, or trade your personal information to third parties for marketing purposes.
-
-### 5.2 Limited Data Sharing
-
-We may share your information only in the following circumstances:
-
-**Service Providers:**
-
-- Cloud storage providers for data backup and synchronization
-- Authentication providers for secure login services
-- Analytics providers for anonymous usage statistics
-- Crash reporting services for app improvement
-
-**Legal Requirements:**
-
-- When required by law, court order, or government regulation
-- To protect our rights, property, or safety
-- To prevent fraud or illegal activities
-- In emergency situations to protect health or safety
-
-**Business Transfers:**
-
-- In case of merger, acquisition, or sale of assets
-- With your consent for specific purposes
-
-### 5.3 Anonymous and Aggregated Data
-
-We may share anonymous, aggregated data that cannot be reasonably linked to individual users for:
-
-- Industry research and analysis
-- App performance benchmarking
-- Statistical reporting
-- Academic research
-
-## 6. Your Rights and Choices
-
-### 6.1 Data Access and Control
-
-You have the right to:
-
-- **Access:** Request a copy of your personal data
-- **Correct:** Update or correct inaccurate information
-- **Delete:** Request deletion of your account and data
-- **Export:** Download your data in a portable format
-- **Restrict:** Limit how we use your information
-
-### 6.2 Account Management
-
-- **Account Deletion:** You can delete your account at any time through the app settings
-- **Data Portability:** Export your data before account deletion
-- **Opt-Out:** Disable certain data collection features in app settings
-- **Communication Preferences:** Manage notification and email preferences
-
-### 6.3 Children's Privacy
-
-Petopia is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will delete it immediately.
-
-## 7. Data Retention
-
-### 7.1 Retention Periods
-
-- **Active Accounts:** Data is retained while your account is active
-- **Deleted Accounts:** Data is deleted within 30 days of account deletion
-- **Legal Requirements:** Some data may be retained longer if required by law
-- **Anonymous Data:** Anonymous usage data may be retained indefinitely
-
-### 7.2 Data Deletion
-
-When you delete your account:
-
-- All personal information is permanently deleted
-- Pet profiles and associated data are removed
-- Photos and documents are deleted from our servers
-- Some anonymous usage data may be retained for analytics
-
-## 8. International Data Transfers
-
-### 8.1 Data Storage Locations
-
-- **Primary Storage:** Data is primarily stored in secure data centers
-- **Backup Locations:** Backup data may be stored in multiple geographic locations
-- **Compliance:** All international transfers comply with applicable data protection laws
-
-### 8.2 Legal Frameworks
-
-- **GDPR Compliance:** For users in the European Union
-- **CCPA Compliance:** For users in California
-- **Local Laws:** Compliance with all applicable local data protection laws
-
-## 9. Cookies and Tracking Technologies
-
-### 9.1 Local Storage
-
-- **App Preferences:** Local storage for app settings and preferences
-- **Session Data:** Temporary session information for app functionality
-- **Cached Content:** Cached images and content for offline use
-
-### 9.2 Analytics
-
-- **Anonymous Usage:** Anonymous usage statistics for app improvement
-- **Performance Metrics:** App performance and crash reporting
-- **No Third-Party Tracking:** We do not use third-party tracking cookies
-
-## 10. Changes to This Privacy Policy
-
-### 10.1 Updates
-
-We may update this Privacy Policy from time to time to reflect:
-
-- Changes in our practices or services
-- New features or functionality
-- Legal or regulatory requirements
-- Feedback from users
-
-### 10.2 Notification
-
-We will notify you of significant changes by:
-
-- In-app notifications
-- Email notifications (if provided)
-- Updated policy date and effective date
-- Prominent display in the app
-
-### 10.3 Continued Use
-
-Your continued use of Petopia after changes to this Privacy Policy constitutes acceptance of the updated policy.
-
-## Apple App Store Data Safety Summary
-
-We designed Petopia to minimize data collection.
-
-- **Data linked to you (may be collected):** email address (account), pet profiles and records you create, photos/documents you upload.
-- **Data not linked to you (may be collected):** diagnostics (crash logs, performance data) and basic device information used to keep the app reliable.
-- **Purchases:** subscription status and purchase history are handled by Apple/Google; we may receive subscription entitlement information (often via RevenueCat) to unlock Premium.
-- **Tracking:** we do not use your data to track you across apps/websites for advertising.
-
-## 11. Contact Information
-
-### 11.1 Privacy Questions
-
-If you have questions about this Privacy Policy or our data practices, please contact us:
-
-**Email:** privacy@petopia.app  
-**Website:** https://petopia.app/privacy
-
-### 11.2 Data Protection Officer
-
-For data protection concerns or to exercise your rights:
-
-**Email:** dpo@petopia.app  
-**Address:** [Add your business address or registered contact address]
-
-### 11.3 Complaints
-
-If you believe we have violated your privacy rights, you can:
-
-- Contact us directly using the information above
-- File a complaint with your local data protection authority
-- Seek resolution through applicable legal channels
-
-## 12. App-Specific Privacy Features
-
-### 12.1 Pet Data Privacy
-
-- **Pet Profiles:** Pet information is treated with the same privacy standards as personal data
-- **Medical Records:** Veterinary and medical information is encrypted and securely stored
-- **Photo Privacy:** Pet photos are stored securely and not used for any other purposes
-
-### 12.2 Financial Data
-
-- **Expense Tracking:** Financial information is stored locally and encrypted
-- **No Payment Processing:** We do not process payments or store payment information
-- **Budget Data:** Expense and budget data is private and not shared
-
-### 12.3 Health Information
-
-- **Medical Privacy:** Pet health information is protected with enhanced security measures
-- **Veterinary Data:** Veterinary visit records and vaccination schedules are private
-- **No Human Health Data:** The app does not collect or process human health information
+**Address:** Çankırı / Merkez, Türkiye
