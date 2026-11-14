@@ -33,7 +33,7 @@
 
     <h1>Privacy Policy - Grimoire: Digital Book of Shadows</h1>
     <p>
-      <strong>Last Updated:</strong> October 8, 2026<br />
+      <strong>Last Updated:</strong> November 14, 2026<br />
       <strong>Effective Date:</strong> September 23, 2026
     </p>
 
@@ -49,31 +49,68 @@
     <h2>2. Information Stored on Your Device</h2>
     <p>
       The App does not require an account and does not sync your personal records
-      to a company-operated cloud account. Its local database may contain:
+      to a company-operated cloud account. Its local database and app storage may contain:
     </p>
     <ul>
       <li>Display name, selected zodiac sign, language, theme, and app preferences.</li>
       <li>Journal entry titles, text, moods, and dates.</li>
       <li>Tarot spread details, selected cards, reading dates, and reflection notes.</li>
       <li>Completed rituals, favorites, moon-phase details, notes, moods, and practice activity.</li>
-      <li>Horoscope responses cached on your device for up to 24 hours.</li>
+      <li>Birth date, optional birth time, birth place, and the latitude and longitude of that place, if you choose to enter birth details.</li>
+      <li>Rituals you create, including intentions, steps, materials, notes, and any photos you attach.</li>
+      <li>Materials you create, including names, types, notes, and any photos you attach, and your inventory of owned materials.</li>
+      <li>Daily, weekly, and monthly horoscope responses cached on your device without an automatic 24-hour expiry.</li>
     </ul>
     <p>
-      These records are stored locally and are not sent to our own account
-      servers. Your operating system may include app data in device backups,
+      Birth-place search uses a city list bundled with the App, not a remote
+      search service. Birth charts are calculated on your device. The App does
+      not send your birth details, chart, journal text, or personal ritual and
+      material content to our horoscope server or to an AI service. Tarot
+      interpretations and birth chart reports use texts included with the App.
+      The separate analytics events described below may include a selected zodiac sign.
+    </p>
+    <p>
+      Attached photos are stored as local files in the App's storage. The App
+      uses the system photo picker to select a photo, or requests camera
+      permission if you choose to take one.
+    </p>
+    <p>
+      Your operating system may include app data in device backups,
       depending on your backup settings and platform. If you uninstall the App,
       local records may be removed from the device; copies in a device backup
       may remain.
     </p>
 
     <h2>3. Information Sent to Service Providers</h2>
-    <h3>Daily horoscope service</h3>
+    <h3>Our horoscope service</h3>
     <p>
-      When you request a horoscope, the App sends the selected zodiac sign to
-      <a href="https://www.freehoroscopeapi.com/">Free Horoscope API</a> as part
-      of the request. The provider may also receive ordinary network information,
-      such as your IP address and request headers. The horoscope response is
-      cached locally for up to 24 hours.
+      The App requests pre-generated daily, weekly, and monthly horoscopes from
+      our backend at <a href="https://grimoire.dekadans.net">grimoire.dekadans.net</a>
+      over HTTPS. Each request specifies the horoscope period, its start date,
+      and the App language. The response contains all 12 zodiac signs, and the
+      App selects your sign's text on your device. Your selected zodiac sign and
+      birth details are not included in this request. The App no longer uses
+      Free Horoscope API.
+    </p>
+    <p>
+      Our server and the hosting or network infrastructure handling the request
+      process ordinary connection information, including your IP address and
+      request headers, to deliver the response. Our public backend uses
+      <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a> as a
+      reverse proxy. Cloudflare processes connection and request information to
+      deliver and protect the service, and may retain traffic and security data
+      under its privacy policy and the applicable service configuration.
+      Infrastructure access or security logs, if enabled, may include your IP
+      address, request path, time, and response status. See Section 7 for retention
+      information.
+    </p>
+    <p>
+      Horoscopes are generated in advance using AI from non-personal astronomical
+      information. A request from the App reads existing content; it does not
+      trigger AI generation or forward your request or IP address to the AI
+      service. Downloaded horoscope text is cached locally by sign, period,
+      start date, and language, and older cached text may be shown when newer
+      content cannot be loaded.
     </p>
 
     <h3>Product analytics</h3>
@@ -101,15 +138,28 @@
       Sentry is not configured in builds without a DSN.
     </p>
 
-    <h3>Purchases</h3>
+    <h3>Purchases and Apple Ads attribution</h3>
     <p>
-      If you buy or restore a subscription or one-time purchase, RevenueCat
-      processes purchase and entitlement information to verify access. This can
-      include transaction or receipt information, product and subscription
-      status, and an anonymous app-user identifier. Apple or Google processes
-      payment details through its store; we do not receive your full payment card
-      number. See
-      <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>,
+      In builds configured with RevenueCat, the App initializes its SDK at startup
+      to check premium access, even if you have not made a purchase. RevenueCat
+      processes an anonymous app-user identifier and, where available, purchase
+      and entitlement information, such as transaction or receipt information,
+      product identifiers, and subscription status. It also supports buying and
+      restoring purchases. Apple or Google processes payment details through its
+      store; we do not receive your full payment card number.
+    </p>
+    <p>
+      On supported iOS versions, RevenueCat initialization also enables Apple's
+      AdServices attribution token collection. RevenueCat can send this token to
+      Apple to obtain attribution information, where available, about whether an
+      installation came from an Apple Ads campaign. This helps measure campaign
+      effectiveness and can occur without a purchase. An AdServices attribution
+      token is not the IDFA advertising identifier. We do not send journal text,
+      birth details, or personal ritual and material content for this purpose.
+      The App does not provide an in-app switch to disable this token collection.
+    </p>
+    <p>
+      See <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>,
       <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>,
       and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
     </p>
@@ -123,26 +173,36 @@
     <h2>4. How We Use Information</h2>
     <p>We use information to:</p>
     <ul>
-      <li>Provide the App's journal, tarot, ritual, favorites, horoscope, and reminder features.</li>
+      <li>Provide the App's journal, tarot, birth chart, ritual, materials, inventory, favorites, horoscope, and reminder features.</li>
       <li>Understand feature use and improve the App through configured analytics.</li>
       <li>Diagnose crashes and performance issues when Sentry is configured.</li>
       <li>Process purchases, restore purchases, and provide premium access.</li>
+      <li>Measure Apple Ads campaign effectiveness through the attribution described above.</li>
+      <li>Operate, secure, and troubleshoot our horoscope service.</li>
       <li>Respond to support and privacy requests.</li>
     </ul>
     <p>
-      We do not use journal or reflection text for advertising. The App does not
-      include an advertising feature or cross-app advertising tracker.
+      We do not use journal or reflection text, birth details, or personal ritual
+      and material content for advertising. The App does not display third-party
+      advertisements. Apple Ads installation attribution is described separately
+      above.
     </p>
 
     <h2>5. Your Choices, Export, and Deletion</h2>
     <ul>
       <li>
         You can export available app records in formats such as JSON, text, or
-        PDF using the App's export feature. If you share or save an export, the
-        recipient app or storage provider handles that copy under its own terms.
+        PDF using the App's export feature. JSON backups include personal rituals,
+        materials, inventory, and attached photos; birth details and app settings
+        are not included. If you share or save an export, the recipient app or
+        storage provider handles that copy under its own terms. Deleting data in
+        the App does not delete copies you have exported or shared.
       </li>
       <li>
-        You can delete individual journal entries using the in-app controls.
+        You can delete individual journal entries, personal rituals, and personal
+        materials using the in-app controls, and clear your saved birth details
+        from the birth data screen. Photos no longer referenced by any ritual or
+        material are cleaned up when the App next starts.
         The App does not currently create an online account, so there is no
         account to delete. There is no in-app control to disable Aptabase
         analytics in builds where analytics is configured.
@@ -174,9 +234,36 @@
       Personal practice records remain in the App's local database until you
       delete them, remove the App, or your device otherwise removes them. The
       security of local records also depends on your device passcode, operating
-      system, and backup settings. Information sent to third-party providers is
-      retained according to their policies and service settings. No method of
-      storage or transmission can be guaranteed to be completely secure.
+      system, and backup settings. Attached photos remain in local app storage;
+      unused photo files are cleaned up at the next App startup. Local horoscope
+      cache entries do not have a fixed expiry or an automatic 24-hour deletion
+      rule and may remain until the App's local data is removed.
+    </p>
+    <p>
+      The horoscope backend application does not implement routine IP-address
+      access logging. Its operational logs cover service startup, generation
+      activity, and errors, and are written to the container's standard error
+      output. The current deployment stores container output using Docker's
+      JSON-file logging driver without automatic log rotation or a time-based
+      expiry. These operational logs therefore have no fixed maximum retention
+      period and can remain until the container is removed or the logs are
+      separately deleted. Restarting the container does not clear them.
+    </p>
+    <p>
+      Cloudflare's traffic and security data are separate from these Docker
+      operational logs. Their retention depends on the Cloudflare services and
+      settings in use and Cloudflare's privacy policy; the absence of routine
+      IP-address access logging in our backend does not mean that Cloudflare
+      retains no connection data. We do not specify a single fixed deletion
+      period for Cloudflare data. You may contact us about connection data,
+      operational logs, and applicable access or deletion rights using the
+      details below.
+    </p>
+    <p>
+      Information sent to third-party providers, including purchase and Apple Ads
+      attribution information, is retained according to their policies and
+      service settings. No method of storage or transmission can be guaranteed
+      to be completely secure.
     </p>
 
     <h2>8. Children's Privacy</h2>
