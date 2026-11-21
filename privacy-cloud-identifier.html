@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy – Cloud Identifier</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 16px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+      }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      header { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; margin-bottom: 24px; }
+      nav a { margin-right: 12px; }
+      hr { margin: 28px 0; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div style="font-size: 20px; font-weight: 800">Cloud Identifier Legal</div>
+      <nav style="font-size: 14px">
+        <a href="index.html">Home</a>
+        <a href="privacy-cloud-identifier.html" style="font-weight: 700">Privacy Policy</a>
+        <a href="terms-cloud-identifier.html">Terms of Use</a>
+      </nav>
+    </header>
+    <hr />
+
+    <h1>Privacy Policy - Cloud Identifier</h1>
+    <p>
+      <strong>Last Updated:</strong> November 22, 2026<br />
+      <strong>Effective Date:</strong> November 22, 2026
+    </p>
+
+    <h2>1. Introduction</h2>
+    <p>
+      This Privacy Policy explains how Çağatay Erkin Eren ("we," "us," or
+      "our") handles information when you use Cloud Identifier (the "App").
+      The App identifies clouds in photos of the sky. Cloud identification
+      uses an AI model provided by <strong>OpenAI</strong>, a third-party
+      service: when you scan a photo, a resized copy of that photo is sent to
+      OpenAI. Section 3 explains this in detail. Your collection of saved
+      sightings stays on your device.
+    </p>
+
+    <h2>2. Information Stored on Your Device</h2>
+    <p>
+      The App does not require an account and does not sync your data to a
+      company-operated cloud account. Its local database and app storage may
+      contain:
+    </p>
+    <ul>
+      <li>Sightings you save: the resized sky photo, the date and time it was saved, and the identified cloud types with their confidence and the AI's note about the sky.</li>
+      <li>A temporary copy of each scanned photo in the App's cache, which the operating system may clear.</li>
+      <li>Whether you have completed onboarding and whether you have allowed AI cloud identification.</li>
+      <li>A cached copy of your subscription status (whether it is active and when it expires), so the App can open without a connection.</li>
+    </ul>
+    <p>
+      To take a photo, the App asks for camera permission. To choose an
+      existing photo, the App uses the system photo picker and receives only
+      the photo you select. The App does not request your location.
+    </p>
+    <p>
+      Your operating system may include app data in device backups,
+      depending on your backup settings and platform. If you uninstall the
+      App, local data may be removed from the device; copies in a device
+      backup may remain.
+    </p>
+
+    <h2>3. Cloud Identification with AI (OpenAI)</h2>
+    <h3>Your permission</h3>
+    <p>
+      Before your first scan, the App explains that cloud identification uses
+      an AI model from OpenAI and asks for your permission. If you choose
+      "Not now," no photo is sent, and the App asks again the next time you
+      start a scan. The App cannot identify clouds without sending the photo.
+    </p>
+
+    <h3>What is sent</h3>
+    <p>
+      When you scan a photo, the App first resizes it on your device (at most
+      1280 pixels on the longest side) and saves it as a new JPEG image. This
+      new image does not carry over the original photo's metadata, such as the
+      location where it was taken. The App then sends the resized photo over
+      HTTPS to our scan server (Section 4), which forwards it to an AI model
+      provided by OpenAI together with fixed instructions and the list of
+      cloud types the App knows. OpenAI returns the cloud types it identifies,
+      a confidence level, and a short note about the sky, which the App shows
+      to you.
+    </p>
+    <p>
+      OpenAI receives the photo and our instructions only. We do not send
+      OpenAI your name, an account, your purchase or subscription identifier,
+      your IP address, or your location. However, the photo itself may show
+      whatever is in the frame, such as buildings, landscapes, or people. We
+      recommend photographing only the sky.
+    </p>
+    <p>
+      OpenAI processes the photo to provide the identification and handles it
+      under its own terms and
+      <a href="https://openai.com/policies/privacy-policy/">privacy policy</a>.
+      We use the AI results only to show them to you; we do not use your
+      photos for advertising.
+    </p>
+
+    <h2>4. Our Scan Server</h2>
+    <p>
+      Scans go through a server we operate, which checks your subscription,
+      applies usage limits, and forwards the photo to OpenAI. The server is
+      reached through
+      <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>,
+      which processes connection and request information, including your IP
+      address, to deliver and protect the service and may retain traffic and
+      security data under its privacy policy and the applicable service
+      configuration.
+    </p>
+    <p>For each scan, our server receives:</p>
+    <ul>
+      <li>
+        <strong>The resized photo.</strong> It is held in memory only while the
+        request is processed and is not saved to disk or written to logs.
+      </li>
+      <li>
+        <strong>An anonymous app-user identifier created by RevenueCat.</strong>
+        The server sends this identifier to RevenueCat to check that you have
+        an active subscription, and keeps the answer in memory for up to 5
+        minutes. To apply the daily scan limit, the server stores this
+        identifier with the number of scans made on the current UTC day. Rows
+        from earlier days are deleted when the next scan is counted; the
+        server does not keep a scan history per user. The server also stores a
+        total scan count per day for the whole service, which contains no user
+        information.
+      </li>
+      <li>
+        <strong>Your IP address and request headers.</strong> To prevent abuse,
+        the server counts requests per IP address in memory over one-minute
+        windows. These counts are not written to disk or logs and are lost
+        when the server restarts.
+      </li>
+    </ul>
+    <p>
+      The server writes one log line per scan with technical details: the
+      outcome, how long it took, the number of AI tokens used, whether the
+      photo showed the sky, and how many clouds were found. These log lines
+      do not include the photo, the app-user identifier, or your IP address.
+      Error logs record technical failures without request content. Logs are
+      rotated automatically: at most three files of 10 MB each are kept, and
+      the oldest is deleted when a new one starts.
+    </p>
+
+    <h2>5. Other Service Providers</h2>
+    <h3>Product analytics</h3>
+    <p>
+      In builds configured with an Aptabase app key, the App sends usage
+      events to <a href="https://aptabase.com/">Aptabase</a>. Events describe
+      app use, such as app opens, completing onboarding (with your optional
+      answer to "Why do you look at the sky?"), allowing AI identification,
+      starting a scan (camera or photo library), the scan outcome and number
+      of clouds found or the type of error, saving or deleting a sighting,
+      creating a share card, and paywall and purchase steps (such as the
+      selected billing period). Events do not include your photos. The SDK may
+      attach an anonymous session identifier and technical context such as
+      app version, platform, operating system, or locale. Aptabase describes
+      its analytics as anonymous and says it does not use persistent device
+      identifiers. Aptabase derives an approximate country and region from
+      the IP address of each request; the IP address itself is not stored.
+    </p>
+
+    <h3>Crash and performance diagnostics</h3>
+    <p>
+      If a build is configured with a Sentry DSN, the App may send crash
+      reports, error details, and sampled performance diagnostics to
+      <a href="https://sentry.io/privacy/">Sentry</a>. These reports may
+      include technical information needed to diagnose the problem, such as
+      app version, operating system, device model, screen names, and stack
+      traces. They do not include your photos. Sentry may also attach a random
+      installation identifier generated by the SDK. This identifier resets
+      when the App is reinstalled and is not an advertising identifier. Sentry
+      is not configured in builds without a DSN.
+    </p>
+
+    <h3>Purchases and Apple Ads attribution</h3>
+    <p>
+      The App uses RevenueCat to sell and manage subscriptions. RevenueCat's
+      SDK starts when the App opens to check your access, even if you have
+      not made a purchase. RevenueCat processes an anonymous app-user
+      identifier and, where available, purchase and entitlement information,
+      such as transaction or receipt information, product identifiers, and
+      subscription status. It also supports buying and restoring purchases.
+      Apple or Google processes payment details through its store; we do not
+      receive your full payment card number.
+    </p>
+    <p>
+      On supported iOS versions, RevenueCat initialization also enables
+      Apple's AdServices attribution token collection. RevenueCat can send
+      this token to Apple to obtain attribution information, where available,
+      about whether an installation came from an Apple Ads campaign. This
+      helps measure campaign effectiveness and can occur without a purchase.
+      An AdServices attribution token is not the IDFA advertising identifier.
+      The App does not provide an in-app switch to disable this token
+      collection.
+    </p>
+    <p>
+      See <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>,
+      <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>,
+      and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+    </p>
+
+    <h3>Local notifications</h3>
+    <p>
+      If you start a free trial and allow notifications, the App schedules
+      reminders about your trial on your device. These are local
+      notifications; the App does not use a server to send them.
+    </p>
+
+    <h3>Sharing</h3>
+    <p>
+      If you tap "Share" on a result, the App creates a share image on your
+      device and opens the system share sheet. The app or service you choose
+      handles the shared image under its own terms.
+    </p>
+
+    <h2>6. How We Use Information</h2>
+    <p>We use information to:</p>
+    <ul>
+      <li>Identify clouds in your photos and show the results.</li>
+      <li>Provide the collection, atlas, share card, and trial reminder features.</li>
+      <li>Check your subscription and apply fair-use limits on scans.</li>
+      <li>Process purchases, restore purchases, and provide premium access.</li>
+      <li>Understand feature use and improve the App through configured analytics.</li>
+      <li>Diagnose crashes and performance issues when Sentry is configured.</li>
+      <li>Measure Apple Ads campaign effectiveness through the attribution described above.</li>
+      <li>Operate, secure, and troubleshoot our scan server.</li>
+      <li>Respond to support and privacy requests.</li>
+    </ul>
+    <p>
+      We do not sell your data. The App does not display third-party
+      advertisements, and we do not use your photos for advertising.
+    </p>
+
+    <h2>7. Your Choices and Deletion</h2>
+    <ul>
+      <li>
+        You can delete any saved sighting and its photo in the App, from the
+        result screen or by swiping the sighting in your collection.
+      </li>
+      <li>
+        If you do not want photos sent to OpenAI, choose "Not now" when asked,
+        or do not start a scan. Your answer is stored on your device; removing
+        the App's data or reinstalling the App resets it. There is currently no
+        in-app switch to withdraw permission after you allow it.
+      </li>
+      <li>
+        Local data can be removed by uninstalling the App, subject to copies
+        that may remain in operating-system backups. Purchase records are
+        handled by the relevant app store and RevenueCat under their policies.
+      </li>
+      <li>
+        There is no in-app control to disable Aptabase analytics in builds
+        where analytics is configured.
+      </li>
+    </ul>
+    <p>
+      The App does not create an online account, so there is no account to
+      delete. You may contact us to exercise privacy rights available under
+      the laws that apply to you. Because Aptabase events are designed not to
+      identify a specific user, we may not be able to locate or delete an
+      individual analytics event.
+    </p>
+
+    <h2>8. Sharing and International Processing</h2>
+    <p>
+      We share information with the providers listed in this Policy only for
+      the features they support, and when required by law or to protect the
+      App and its users. Those providers, including OpenAI, may process
+      information in countries other than your own and apply their own
+      privacy terms. Please review their current policies using the links
+      above.
+    </p>
+
+    <h2>9. Security and Retention</h2>
+    <p>
+      Saved sightings remain on your device until you delete them, remove the
+      App, or your device otherwise removes them. The security of local data
+      also depends on your device passcode, operating system, and backup
+      settings.
+    </p>
+    <p>
+      On our scan server, photos are not stored; daily scan counts and logs
+      are kept as described in Section 4. Information sent to third-party
+      providers, including OpenAI, Cloudflare, RevenueCat, Aptabase, Sentry,
+      and Apple or Google, is retained according to their policies and
+      service settings. No method of storage or transmission can be
+      guaranteed to be completely secure.
+    </p>
+
+    <h2>10. Children's Privacy</h2>
+    <p>
+      The App is not directed to children under 13, and we do not knowingly
+      collect personal information from children under 13. If you believe a
+      child has provided information through the App, contact us so we can
+      review the request.
+    </p>
+
+    <h2>11. Changes to This Policy</h2>
+    <p>
+      We may update this Policy when the App or our data practices change. We
+      will revise the date above and provide an in-app notice when required.
+    </p>
+
+    <h2>12. Contact Information</h2>
+    <p>
+      For questions or privacy requests, contact:<br />
+      <strong>Company:</strong> Çağatay Erkin Eren<br />
+      <strong>Email:</strong> <a href="mailto:cagatayeren1898@gmail.com">cagatayeren1898@gmail.com</a><br />
+      <strong>Address:</strong> Çankırı / Merkez / Türkiye
+    </p>
+    <hr />
+  </body>
+</html>
