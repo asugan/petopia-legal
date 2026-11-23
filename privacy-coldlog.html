@@ -30,17 +30,17 @@
     </header>
     <hr />
 
-    <h1>Privacy Policy - ColdLog: Plunge &amp; Ice Bath</h1>
+    <h1>Privacy Policy - ColdLog: Sauna &amp; Cold Plunge</h1>
     <p>
-      <strong>Last Updated:</strong> October 8, 2026<br />
+      <strong>Last Updated:</strong> November 23, 2026<br />
       <strong>Effective Date:</strong> September 23, 2026
     </p>
 
     <h2>1. Introduction</h2>
     <p>
       This Policy explains how Çağatay Erkin Eren ("we,
-      "us," or "our") handles information when you use ColdLog: Plunge &amp; Ice
-      Bath (the "App"). ColdLog does not require an account and stores your
+      "us," or "our") handles information when you use ColdLog: Sauna &amp; Cold
+      Plunge and its Apple Watch app (together, the "App"). ColdLog does not require an account and stores your
       session history on your device. Some analytics, diagnostic, and purchase
       information may be sent to the service providers described below.
     </p>
@@ -51,21 +51,25 @@
     </p>
     <ul>
       <li>
-        Session start and end times, session type, water temperature, duration,
-        mood before and after, and any notes you enter.
+        Session start and end times, session type (for example sauna, cold
+        plunge, ice bath, cold shower, or contrast), water or sauna temperature,
+        duration, mood before and after, and any notes you enter. Contrast
+        sessions also store each sauna and cold phase with its time and
+        temperature.
       </li>
       <li>
         If you grant Apple Health access, HRV snapshots recorded before and after
-        a session, when available.
+        a session and the average heart rate during a session (overall and per
+        contrast phase), when available.
       </li>
       <li>
         Breathwork details associated with a session, such as rounds, breaths,
         and hold duration.
       </li>
       <li>
-        App preferences such as units, appearance, weekly goals, haptics and
-        sound settings, onboarding status, Apple Health connection state, and a
-        local copy of premium entitlement status.
+        App preferences such as units, appearance, default session type, weekly
+        goals, haptics and sound settings, onboarding status, Apple Health
+        connection state, and a local copy of subscription status.
       </li>
     </ul>
     <p>
@@ -76,19 +80,30 @@
       remain.
     </p>
 
-    <h2>3. Apple Health</h2>
+    <h2>3. Apple Health and Apple Watch</h2>
     <p>
-      On iOS, ColdLog can request permission to read Heart Rate Variability
-      (HRV) and heart-rate data from Apple Health. The current session recovery
-      flow reads HRV samples to show before-and-after context. Any HRV values
-      saved with a session remain in the local session record and may be
-      included in an export you choose to share. ColdLog does not write data to
-      Apple Health.
+      On iPhone, ColdLog can request permission to read Heart Rate Variability
+      (HRV), heart rate, and workouts from Apple Health. It reads HRV to show
+      before-and-after recovery context, heart rate to show the average heart
+      rate of a session, and workouts to import sessions recorded by the ColdLog
+      Apple Watch app. The iPhone app does not write data to Apple Health.
     </p>
     <p>
-      You can manage or revoke Health access in iOS Settings under Health and
-      Data Access. Turning off the App's Apple Health feature does not itself
-      revoke the permission granted by iOS.
+      The ColdLog Apple Watch app can request permission to read your heart rate
+      and to save workouts. During a session it reads your live heart rate, and
+      when you save the session it writes it to Apple Health as a workout. The
+      workout includes the session type and, as workout metadata, the phase
+      times and temperatures you set. The iPhone app then imports that workout
+      into your local session history. Workouts written to Apple Health are
+      stored by Apple Health under your Health settings, not by us.
+    </p>
+    <p>
+      Health values saved with a session remain in the local session record and
+      may be included in an export you choose to share. We do not use Apple
+      Health data for advertising, marketing, or data mining, and we do not
+      share it with third parties. You can manage or revoke Health access in iOS
+      Settings under Health and Data Access. Turning off the App's Apple Health
+      feature does not itself revoke the permission granted by iOS.
     </p>
 
     <h2>4. Product Analytics</h2>
@@ -97,7 +112,10 @@
       analytics events to <a href="https://aptabase.com/">Aptabase</a>. These
       events may describe app screens and feature use, session type and entry
       point, session duration and temperature ranges, breathwork counts, weekly
-      goals, streaks, export results, and paywall or purchase outcomes. Events
+      goals, streaks, export results, the number of Apple Watch sessions
+      imported, and paywall or purchase outcomes. Onboarding events may include
+      the answers you choose there: session types you are interested in, your
+      main goal, experience level, unit, and weekly goal. Events
       may include simple flags such as whether a session had a note or mood
       value; they do not include the note text or mood value.
     </p>
@@ -142,12 +160,19 @@
       <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>,
       and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
     </p>
+    <p>
+      If you start a free trial and allow notifications, the App schedules local
+      reminders on your device, for example before the trial ends. These
+      reminders are created on the device from your subscription status; no
+      push notification server is used and no notification data is sent to us.
+      You can turn notifications off at any time in your device settings.
+    </p>
 
     <h2>7. Exporting and Sharing</h2>
     <p>
       You can export session records as CSV or JSON. An export may include
-      session dates, type, temperature, duration, mood values, notes, and saved
-      HRV measurements. The App creates the export when you request it and opens
+      session dates, type, temperature, duration, mood values, notes, saved HRV
+      and average heart-rate values, and contrast phase details. The App creates the export when you request it and opens
       the operating system's share sheet. Any copy you send or save outside the
       App is handled by the receiving app or service under its own terms and
       privacy policy.
@@ -159,6 +184,11 @@
         You can export your session history in Settings and delete individual
         sessions from their detail screen. The App has no account to delete and
         does not currently offer an in-app delete-all-sessions control.
+      </li>
+      <li>
+        Workouts saved by the Apple Watch app can be deleted in the Health app.
+        Deleting a session in ColdLog does not delete the matching workout from
+        Apple Health.
       </li>
       <li>
         Local session records remain on the device until deleted, the App is
